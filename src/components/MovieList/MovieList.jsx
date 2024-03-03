@@ -1,15 +1,19 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import MovieItem from '../MovieItem/MovieItem';
 import './MovieList.css';
 
 function MovieList() {
 
   const dispatch = useDispatch();
-  const movies = useSelector(store => store.movies);
 
+  const movies = useSelector(store => store.movies);
+  
+// on page load, fetch and render all movies from database
   useEffect(() => {
     dispatch({ type: 'FETCH_MOVIES' });
   }, []);
+
 
   return (
     <main>
@@ -17,9 +21,8 @@ function MovieList() {
       <section className="movies">
         {movies.map(movie => {
           return (
-            <div data-testid='movieItem' key={movie.id}>
-              <h3>{movie.title}</h3>
-              <img data-testid='toDetails' src={movie.poster} alt={movie.title}/>
+            <div className="movie-component" key={movie.id}>
+              <MovieItem movie={movie} />
             </div>
           );
         })}
