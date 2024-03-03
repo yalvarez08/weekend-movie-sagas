@@ -6,7 +6,6 @@ import './MovieList.css';
 function MovieList() {
 
   const dispatch = useDispatch();
-
   const movies = useSelector(store => store.movies);
   
 // on page load, fetch and render all movies from database
@@ -17,7 +16,7 @@ function MovieList() {
 
   return (
     <main>
-      <h1>MovieList</h1>
+      <h1>Movie List</h1>
       <section className="movies">
         {movies.map(movie => {
           return (

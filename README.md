@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a movie management app. It's a relatively simple app that displays a collection of movie images/posters and details that correspond with each movie. On the home page, the user if shown the collection of movies. Upon clicking a movie poster, the user is taken to a details page which explains more about the movie, such as title, image, description, and the movie's genre(s).
+This is a movie management app. It's a relatively simple app that displays a collection of movie images/posters and details that correspond with each movie. On the home page, the user is shown the collection of movies. Upon clicking a movie poster, the user is taken to a details page which explains more about the movie, such as title, image, description, and the movie's genre(s). By clicking the `Back to movie list` button, the user is taken back to the home page.
 
 ## Screen shot
 Home page / movie list.
