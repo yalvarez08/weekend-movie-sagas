@@ -1,6 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import { useDispatch } from 'react-redux';
+import './MovieItem.css';
 
 function MovieItem({movie}) {
 
@@ -14,10 +15,14 @@ function MovieItem({movie}) {
       }
   
     return (
-      <div data-testid='movieItem' key={movie.id}>
-        <h3>{movie.title}</h3>
-        <img data-testid='toDetails' onClick={handleSelectedMovie} src={movie.poster} alt={movie.title}/>
+      <>
+      <div className="container">
+        <div data-testid='movieItem' className="gallery" key={movie.id}>
+          <h3 className="film-title">{movie.title}</h3>
+          <img data-testid='toDetails' id="film-image" onClick={handleSelectedMovie} src={movie.poster} alt={movie.title}/>
+        </div>
       </div>
+      </>
     );
   }
   

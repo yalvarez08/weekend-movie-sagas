@@ -17,15 +17,15 @@ function MovieList() {
   return (
     <main>
       <h1>Movie List</h1>
-      <section className="movies">
+      <div className="movies">
         {movies.map(movie => {
           return (
-            <div className="movie-component" key={movie.id}>
+            <div key={movie.id}>
               <MovieItem movie={movie} />
             </div>
           );
         })}
-      </section>
+      </div>
     </main>
   );
 }

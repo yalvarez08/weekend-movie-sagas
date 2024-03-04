@@ -5,3 +5,19 @@
 h1 {
   font-family: "Gruppo", sans-serif;
 }
+
+#back-btn {
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 2em;
+  text-align: left;
+}
+
+ul li {
+ display: flex;
+  
+}

@@ -1,0 +1,52 @@
+
+.gallery {
+    border: 1px solid #ccc;
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+#film-image {
+    max-width: 200px;
+    
+}
+
+.film-title {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 6px;
+    display: flex;
+    margin: 2em;
+    width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

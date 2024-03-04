@@ -29,7 +29,7 @@ function DetailsView() {
     <div data-testid="movieDetails">
         {renderDetails()}
         
-        <button data-testid="toList" onClick={() => history.push('/')}>Back to movie list</button>
+        <button data-testid="toList" id="back-btn" onClick={() => history.push('/')}>Back to movie list</button>
     </div>
     </>
   );
