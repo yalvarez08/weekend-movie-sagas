@@ -7,9 +7,11 @@ This is a movie management app. It's a relatively simple app that displays a col
 
 ## Screen shot
 Home page / movie list.
+<img width="1392" alt="Screenshot 2024-03-03 at 7 38 48 PM" src="https://github.com/yalvarez08/weekend-movie-sagas/assets/145588787/a3ad75fa-8389-4516-8a59-ebdf9682d52d">
 
 
 Details page of a selected movie.
+<img width="1392" alt="Screenshot 2024-03-03 at 7 39 05 PM" src="https://github.com/yalvarez08/weekend-movie-sagas/assets/145588787/3b2cca00-fdd5-444f-be2f-441a8fb8541a">
 
 
 
